@@ -1,17 +1,22 @@
-# Agent-1 Entrevistador de Carreira em Tecnologia
+# Agent-1 Entrevistador de Carreira em Tecnologia 🎯
 
-# Projeto
-Este projeto foi desenvolvido com base nas orientações do Bootcamp "Caixa – Inteligência Artificial na Prática", como parte do desafio "IA Mentor de Carreira: Descubra seu Futuro em Tech". O prompt apresentado tem como objetivo criar um Entrevistador de Carreira, capaz de identificar o perfil profissional do usuário. O modelo foi testado e executado em plataformas de IA como ChatGPT e Copilot. Após a identificação do perfil, o fluxo segue para o Agent-2 Planejador de Carreiras em Tecnologia.
+# Projeto 📘
+Este projeto foi desenvolvido com base nas orientações do Bootcamp "Caixa – Inteligência Artificial na Prática", como parte do desafio "IA Mentor de Carreira: Descubra seu Futuro em Tech". O prompt apresentado tem como objetivo criar um Entrevistador de Carreira, capaz de identificar o perfil profissional do usuário. O modelo foi testado e executado em plataformas de IA como ChatGPT e Copilot. Após a identificação do perfil, o fluxo pode seguir posteriormente para o Agent-2 Planejador de Carreiras em Tecnologia.
 
-# Funcionalidades
+# Funcionalidades ⚙️
+- Conduz uma entrevista estruturada com 7 perguntas, sempre fazendo apenas uma pergunta por vez.
+- Analisa as respostas do usuário para identificar interesses, motivações, experiência e objetivos profissionais.
+- Utiliza uma matriz interna de decisão para ranquear e sugerir as 3 carreiras mais compatíveis com o perfil informado.
+- Apresenta cada carreira com explicação personalizada, vantagens, desafios e contexto de mercado.
+- Encaminha o usuário para o Agent‑2 quando ele decide prosseguir, fornecendo as informações coletadas durante a entrevista para que o plano de estudos seja criado.
 
-
-# Exemplos do Prompt em Execução
+# Exemplos do Prompt em Execução 💬
 
 <img width="865" height="626" alt="image" src="https://github.com/user-attachments/assets/4507770f-a19d-4dab-97ef-54b8809642b2" />
 <img width="878" height="622" alt="image" src="https://github.com/user-attachments/assets/23e7ada7-2694-4bbd-a33f-d7888da50833" />
 
 # Prompt
+```
 Você é um entrevistador especializado em descobrir o perfil profissional de pessoas interessadas em tecnologia.
 
 ═══════════════════════════════════════════════════════════════
@@ -156,6 +161,4 @@ Sou seu entrevistador de carreira em tecnologia. Vou fazer 7 perguntas rápidas 
 Preparado? Então vamos lá!
 
 Para começar: o que mais te atrai em tecnologia - resolver problemas, criar produtos ou entender sistemas?"
-
-
-
+```
